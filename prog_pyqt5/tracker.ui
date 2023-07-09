@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>715</width>
+    <width>786</width>
     <height>515</height>
    </rect>
   </property>
@@ -33,13 +33,28 @@
     </property>
    </widget>
    <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>350</x>
       <y>90</y>
-      <width>312</width>
-      <height>261</height>
+      <width>410</width>
+      <height>260</height>
      </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>410</width>
+      <height>260</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>410</width>
+      <height>260</height>
+     </size>
     </property>
    </widget>
    <widget class="QProgressBar" name="progressBar">
@@ -145,8 +160,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>715</width>
-     <height>21</height>
+     <width>786</width>
+     <height>22</height>
     </rect>
    </property>
   </widget>
