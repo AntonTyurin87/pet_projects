@@ -1,7 +1,7 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication
 
-Form, Window = uic.loadUiType("tracker.ui")
+Form, Window = uic.loadUiType("prog_pyqt5/tracker.ui")
 
 app = QApplication([])
 window = Window()
