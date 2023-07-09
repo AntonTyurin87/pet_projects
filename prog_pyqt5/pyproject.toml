@@ -9,6 +9,7 @@ packages = [{include = "prog_pyqt5"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 pyqt5 = "^5.15.9"
+pyuic5-tool = "^0.0.1"
 
 
 [build-system]

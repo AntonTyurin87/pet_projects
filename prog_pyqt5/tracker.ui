@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>807</width>
+    <width>715</width>
     <height>515</height>
    </rect>
   </property>
@@ -17,19 +17,19 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>20</x>
       <y>10</y>
-      <width>361</width>
+      <width>661</width>
       <height>58</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>36</pointsize>
+      <pointsize>24</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>Трекер события</string>
+     <string>Трекер события !@#</string>
     </property>
    </widget>
    <widget class="QCalendarWidget" name="calendarWidget">
@@ -37,8 +37,8 @@
      <rect>
       <x>370</x>
       <y>90</y>
-      <width>411</width>
-      <height>251</height>
+      <width>312</width>
+      <height>261</height>
      </rect>
     </property>
    </widget>
@@ -47,7 +47,7 @@
      <rect>
       <x>30</x>
       <y>370</y>
-      <width>751</width>
+      <width>661</width>
       <height>31</height>
      </rect>
     </property>
@@ -145,8 +145,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>807</width>
-     <height>22</height>
+     <width>715</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
