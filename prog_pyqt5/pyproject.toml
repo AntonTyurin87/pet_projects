@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "prog-pyqt5"
+version = "0.1.0"
+description = ""
+authors = ["Антон Тюрин <AntonTyurin87@gmail.com>"]
+readme = "README.md"
+packages = [{include = "prog_pyqt5"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyqt5 = "^5.15.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
