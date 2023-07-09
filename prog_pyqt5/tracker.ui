@@ -2,16 +2,28 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>786</width>
-    <height>515</height>
+    <width>800</width>
+    <height>520</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>520</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Тест приложения на Python с модулем PyQt5</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color #ffffff</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -19,7 +31,7 @@
      <rect>
       <x>20</x>
       <y>10</y>
-      <width>661</width>
+      <width>751</width>
       <height>58</height>
      </rect>
     </property>
@@ -29,7 +41,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Трекер события !@#</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Трекер события !@#&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QCalendarWidget" name="calendarWidget">
@@ -38,7 +50,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>370</x>
       <y>90</y>
       <width>410</width>
       <height>260</height>
@@ -60,9 +72,9 @@
    <widget class="QProgressBar" name="progressBar">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>20</x>
       <y>370</y>
-      <width>661</width>
+      <width>761</width>
       <height>31</height>
      </rect>
     </property>
@@ -100,7 +112,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Описание события:</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Описание события:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -124,7 +136,7 @@
    <widget class="QDateEdit" name="dateEdit">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>20</x>
       <y>320</y>
       <width>141</width>
       <height>31</height>
@@ -160,7 +172,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>786</width>
+     <width>800</width>
      <height>22</height>
     </rect>
    </property>

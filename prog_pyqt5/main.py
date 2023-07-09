@@ -46,7 +46,7 @@ form.dateEdit.dateChanged.connect(on_dateedit_change)
 
 start_date = form.calendarWidget.selectedDate()
 calc_date = form.calendarWidget.selectedDate()
-form.label.setText("Трекер события от: %s" % start_date.toString('dd-MM-yyyy'))
+form.label.setText("<html><head/><body><p align=\"center\">Трекер события от: %s</p></body></html>" % start_date.toString('dd-MM-yyyy')) #"<html><head/><body><p align=\"center\">Трекер события !@#</p></body></html>")
 on_click_calendar()
 
 
