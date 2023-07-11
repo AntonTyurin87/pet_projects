@@ -2,6 +2,13 @@ import pickle
 from PyQt5 import uic
 from PyQt5.QtCore import QDate
 from PyQt5.QtWidgets import QApplication
+import os
+
+print(os.path.realpath(__file__))
+dirname, filename = os.path.split(os.path.realpath(__file__))
+print(dirname)
+
+# Form, Window = uic.loadUiType(dirname + "\\prog_pyqt5/tracker.ui")
 
 Form, Window = uic.loadUiType("prog_pyqt5/tracker.ui")
 
